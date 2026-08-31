@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Pengaturan dasar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffecec;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #d94f70;
+    padding: 25px 20px;
+    color: white;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 18px;
+    color: white;
+    background-color: #b93659;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #8f2946;
+}
+
+/* Konten utama */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+
+h1 {
+    color: #b93659;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #d94f70;
+    border-bottom: 2px solid #f2b6c2;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Foto profil */
+main img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f2b6c2;
+}
+
+/* Daftar */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Garis pemisah */
+hr {
+    border: 0;
+    border-top: 1px solid #f2b6c2;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    color: #666;
+}
