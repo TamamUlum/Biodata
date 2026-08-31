@@ -1,0 +1,11 @@
+/* Styling gambar untuk menghindari distorsi/memanjang */
+.card-img-custom {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.carousel-custom {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
